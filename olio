@@ -1,0 +1,39 @@
+function Tili (tilinro, sukunimi, etunimi, saldo)
+{
+  this.nro = tilinro;
+  this.sukunimi = sukunimi;
+  this.etunimi = etunimi;
+  this.saldo = saldo;
+
+  this.tiedot = Naytatiedot;
+}
+var Hannes = new Tili('123456-567', 'Hayrynen', 'Hannes','53');
+
+function Naytatiedot()
+
+{
+//Sijoitetaan  olion muuttujien sisältö  metodin muuttujiin:
+  this.tilinro;
+  this.sukunimi
+  this.etunimi
+  this.saldo
+
+  document.write("Henkilön tilinumero on: " + tilinro + " ja nimi on " + etunimi + " " + sukunimi)
+
+  }
+hannes.tiedot
+
+
+function OtaRahaa(summa)
+
+var saldo = this.saldo
+var summa = summa;
+if summa <= saldo)
+{
+saldo- = summa; // saldo = saldo - summa
+}
+else {
+
+    Document.write("Sinulla ei ole riittävästi rahaa tilillä");
+}
+  Document.write("Uusi saldo on")
